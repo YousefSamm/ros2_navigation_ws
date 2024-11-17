@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.002294] (-) JobUnselected: {'identifier': 'cartographer_slam'}
+[0.002375] (-) JobUnselected: {'identifier': 'localization_server'}
+[0.002427] (-) JobUnselected: {'identifier': 'map_server'}
+[0.002468] (-) JobUnselected: {'identifier': 'nav2_course'}
+[0.002502] (-) JobUnselected: {'identifier': 'nav2_project'}
+[0.002564] (path_planner_server) JobQueued: {'identifier': 'path_planner_server', 'dependencies': OrderedDict()}
+[0.002599] (path_planner_server) JobStarted: {'identifier': 'path_planner_server'}
+[0.100705] (-) TimerEvent: {}
+[0.201715] (-) TimerEvent: {}
+[0.302092] (-) TimerEvent: {}
+[0.402371] (-) TimerEvent: {}
+[0.502725] (-) TimerEvent: {}
+[0.603170] (-) TimerEvent: {}
+[0.704354] (-) TimerEvent: {}
+[0.804910] (-) TimerEvent: {}
+[0.905298] (-) TimerEvent: {}
+[1.005927] (-) TimerEvent: {}
+[1.106237] (-) TimerEvent: {}
+[1.206574] (-) TimerEvent: {}
+[1.306931] (-) TimerEvent: {}
+[1.407309] (-) TimerEvent: {}
+[1.507659] (-) TimerEvent: {}
+[1.608078] (-) TimerEvent: {}
+[1.708473] (-) TimerEvent: {}
+[1.809447] (-) TimerEvent: {}
+[1.909785] (-) TimerEvent: {}
+[2.010110] (-) TimerEvent: {}
+[2.110594] (-) TimerEvent: {}
+[2.210958] (-) TimerEvent: {}
+[2.311267] (-) TimerEvent: {}
+[2.411638] (-) TimerEvent: {}
+[2.511991] (-) TimerEvent: {}
+[2.612483] (-) TimerEvent: {}
+[2.713004] (-) TimerEvent: {}
+[2.813308] (-) TimerEvent: {}
+[2.913714] (-) TimerEvent: {}
+[3.014061] (-) TimerEvent: {}
+[3.114732] (-) TimerEvent: {}
+[3.215707] (-) TimerEvent: {}
+[3.316173] (-) TimerEvent: {}
+[3.416834] (-) TimerEvent: {}
+[3.517703] (-) TimerEvent: {}
+[3.618117] (-) TimerEvent: {}
+[3.718475] (-) TimerEvent: {}
+[3.731584] (path_planner_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/path_planner_server', 'build', '--build-base', '/home/user/ros2_ws/build/path_planner_server/build', 'install', '--record', '/home/user/ros2_ws/build/path_planner_server/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/path_planner_server', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://4_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '4_xterm', 'PWD': '/home/user/ros2_ws/build/path_planner_server', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_project:/home/user/ros2_ws/install/nav2_course:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server:/home/user/ros2_ws/install/cartographer_slam:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/nav2_course::/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/path_planner_server/prefix_override:/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/user/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '4_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://4_simulation:11311', 'ROS_HOSTNAME': '4_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': '43b6fbe0-05a1-401f-9e6c-32cbca5edb22', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25881', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20004', '_': '/usr/bin/env'}, 'shell': False}
+[3.818615] (-) TimerEvent: {}
+[3.920810] (-) TimerEvent: {}
+[4.021165] (-) TimerEvent: {}
+[4.121557] (-) TimerEvent: {}
+[4.126694] (path_planner_server) StdoutLine: {'line': b'running egg_info\n'}
+[4.127888] (path_planner_server) StdoutLine: {'line': b'writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO\n'}
+[4.128417] (path_planner_server) StdoutLine: {'line': b'writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt\n'}
+[4.128709] (path_planner_server) StdoutLine: {'line': b'writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt\n'}
+[4.128879] (path_planner_server) StdoutLine: {'line': b'writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt\n'}
+[4.128977] (path_planner_server) StdoutLine: {'line': b'writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt\n'}
+[4.130776] (path_planner_server) StdoutLine: {'line': b"reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[4.132806] (path_planner_server) StdoutLine: {'line': b"writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[4.133120] (path_planner_server) StdoutLine: {'line': b'running build\n'}
+[4.133291] (path_planner_server) StdoutLine: {'line': b'running build_py\n'}
+[4.133410] (path_planner_server) StdoutLine: {'line': b'running install\n'}
+[4.133694] (path_planner_server) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.133836] (path_planner_server) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.134057] (path_planner_server) StdoutLine: {'line': b'running install_lib\n'}
+[4.135538] (path_planner_server) StdoutLine: {'line': b'running install_data\n'}
+[4.137449] (path_planner_server) StdoutLine: {'line': b'copying config/planner_server.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[4.137691] (path_planner_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.138911] (path_planner_server) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.139391] (path_planner_server) StdoutLine: {'line': b'Copying ../../build/path_planner_server/path_planner_server.egg-info to /home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info\n'}
+[4.140823] (path_planner_server) StdoutLine: {'line': b'running install_scripts\n'}
+[4.169362] (path_planner_server) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/path_planner_server/install.log'\n"}
+[4.199016] (path_planner_server) CommandEnded: {'returncode': 0}
+[4.222031] (-) TimerEvent: {}
+[4.323864] (-) TimerEvent: {}
+[4.369340] (path_planner_server) JobEnded: {'identifier': 'path_planner_server', 'rc': 0}
+[4.371479] (-) EventReactorShutdown: {}

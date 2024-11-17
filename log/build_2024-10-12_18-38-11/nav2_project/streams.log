@@ -1,0 +1,60 @@
+[2.211s] Invoking command in '/home/user/ros2_ws/src/ros2_nav_files/nav2_project': PYTHONPATH=/home/user/ros2_ws/build/nav2_project/prefix_override:/home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/user/ros2_ws/build/nav2_project/build install --record /home/user/ros2_ws/build/nav2_project/install.log --install-scripts $base/lib/nav2_project --single-version-externally-managed
+[2.726s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.726s]   warnings.warn(
+[2.740s] running egg_info
+[2.741s] creating ../../../build/nav2_project/nav2_project.egg-info
+[2.741s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[2.741s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[2.744s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[2.744s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[2.744s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[2.744s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[2.782s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[2.782s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[2.783s] running build
+[2.784s] running build_py
+[2.784s] creating /home/user/ros2_ws/build/nav2_project/build
+[2.784s] creating /home/user/ros2_ws/build/nav2_project/build/lib
+[2.784s] creating /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[2.784s] copying nav2_project/__init__.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[2.784s] copying nav2_project/spot_recorder.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[2.784s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.785s]   warnings.warn(
+[2.785s] copying nav2_project/go_to_pose.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[2.785s] running install
+[2.785s] running install_lib
+[2.785s] creating /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[2.786s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/__init__.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[2.786s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/spot_recorder.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[2.786s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/go_to_pose.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project
+[2.786s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/__init__.py to __init__.cpython-310.pyc
+[2.786s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/spot_recorder.py to spot_recorder.cpython-310.pyc
+[2.787s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/go_to_pose.py to go_to_pose.cpython-310.pyc
+[2.808s] running install_data
+[2.808s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index
+[2.808s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index
+[2.808s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages
+[2.809s] copying resource/nav2_project -> /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages
+[2.809s] copying package.xml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project
+[2.809s] creating /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] copying launch/project_map_server.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] copying launch/cartographer.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] copying launch/nav2_project.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] copying launch/project_navigation_with_tools_launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] copying launch/go_to_pose.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[2.809s] creating /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.809s] copying config/turtlebot3_house.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.809s] copying config/nav2_project.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.809s] copying config/project_params.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.809s] copying config/spot-list.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.810s] copying config/turtlebot3_house.pgm -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.810s] copying config/nav2_default_view.rviz -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.810s] copying config/navigate_w_replanning_and_recovery.xml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.810s] copying config/cartographer.lua -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[2.810s] running install_egg_info
+[2.812s] Copying ../../../build/nav2_project/nav2_project.egg-info to /home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info
+[2.813s] running install_scripts
+[2.858s] Installing go_to_pose script to /home/user/ros2_ws/install/nav2_project/lib/nav2_project
+[2.858s] Installing spot_recorder script to /home/user/ros2_ws/install/nav2_project/lib/nav2_project
+[2.859s] writing list of installed files to '/home/user/ros2_ws/build/nav2_project/install.log'
+[2.961s] Invoked command in '/home/user/ros2_ws/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/home/user/ros2_ws/build/nav2_project/prefix_override:/home/user/ros2_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/user/ros2_ws/build/nav2_project/build install --record /home/user/ros2_ws/build/nav2_project/install.log --install-scripts $base/lib/nav2_project --single-version-externally-managed

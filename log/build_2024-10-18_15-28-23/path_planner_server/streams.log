@@ -1,0 +1,35 @@
+[3.268s] Invoking command in '/home/user/ros2_ws/build/path_planner_server': PYTHONPATH=/home/user/ros2_ws/build/path_planner_server/prefix_override:/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --editable --build-directory /home/user/ros2_ws/build/path_planner_server/build --no-deps install_data
+[3.626s] running develop
+[3.627s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.628s]   warnings.warn(
+[3.630s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.630s]   warnings.warn(
+[3.850s] running egg_info
+[3.850s] creating path_planner_server.egg-info
+[3.850s] writing path_planner_server.egg-info/PKG-INFO
+[3.851s] writing dependency_links to path_planner_server.egg-info/dependency_links.txt
+[3.851s] writing entry points to path_planner_server.egg-info/entry_points.txt
+[3.851s] writing requirements to path_planner_server.egg-info/requires.txt
+[3.851s] writing top-level names to path_planner_server.egg-info/top_level.txt
+[3.851s] writing manifest file 'path_planner_server.egg-info/SOURCES.txt'
+[3.854s] reading manifest file 'path_planner_server.egg-info/SOURCES.txt'
+[3.855s] writing manifest file 'path_planner_server.egg-info/SOURCES.txt'
+[3.857s] running build_ext
+[3.857s] Creating /home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path-planner-server.egg-link (link to .)
+[3.858s] 
+[3.858s] Installed /home/user/ros2_ws/build/path_planner_server
+[3.858s] running install_data
+[3.858s] creating /home/user/ros2_ws/install/path_planner_server/share/ament_index
+[3.859s] creating /home/user/ros2_ws/install/path_planner_server/share/ament_index/resource_index
+[3.859s] creating /home/user/ros2_ws/install/path_planner_server/share/ament_index/resource_index/packages
+[3.859s] copying resource/path_planner_server -> /home/user/ros2_ws/install/path_planner_server/share/ament_index/resource_index/packages
+[3.859s] copying package.xml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server
+[3.859s] creating /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/launch
+[3.859s] copying launch/pathplanner.launch.py -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/launch
+[3.859s] creating /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.859s] copying config/controller.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.859s] copying config/recovery.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.860s] copying config/planner_server.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.860s] copying config/bt_navigator.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.860s] copying config/behavior.xml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config
+[3.898s] Invoked command in '/home/user/ros2_ws/build/path_planner_server' returned '0': PYTHONPATH=/home/user/ros2_ws/build/path_planner_server/prefix_override:/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --editable --build-directory /home/user/ros2_ws/build/path_planner_server/build --no-deps install_data
